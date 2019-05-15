@@ -8,11 +8,11 @@ class PythonAI(DefaultShipAI):
     def getUpgrade(myShipId):
         return Action('width++')
 
-# Должен возвращать имя корабля
+# Должен возвращать имя корабля (EN: Must return ship name)
     def getShipName():
         return 'PythonShip'
 
-    # Должен возвращать название команды корабля
+    # Должен возвращать название команды корабля (EN: Must return ship crew name)
     def getTeamName():
         return 'PythonShipTeam'
 
